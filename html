@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/scrip.js"></script>
+</head>
+<body>
+    <h1> Cadastros dos alunos</h1>
+
+    <form>
+        <label for="nomeDoAluno">Nome do aluno:</label>
+        <input type="text" id="nomeDoAluno" placeholder="Digite o seu nome aqui!! ">
+        <br>
+
+        <label for="Cidade">Cidade:</label>
+        <select id="Cidade">
+            <option value="   ">   </option>
+            <option value="Maceió">Maceió</option>
+            <option value="São Miguel">São Miguel</option>
+            <option value="Luziapolis">Luziapolis</option>
+            <option value="Campo Alegre">Campo Alegre</option>
+        </select>
+
+        <br>
+
+        <label for="moraNaCidade"> Você mora na cidade que foi escolhida ?</label>
+        <br>
+        <input type="radio" id="sim" name="Mora" value="sim">
+        <label for="sim">sim</label>
+        <br>
+        <input type="radio" id="não" name="Mora" value="não">
+        <label for="não">não</label>
+        <br>
+
+        <button type="button" onclick="exibirMensagem()">Exibir mensagem</button>
+
+    </form>
+    <h2 id="mensagem"></h2>
+    
+</body>
+</html>
