@@ -6,7 +6,7 @@ function exibirMensagem() {
     let valorSelecionado = "";
 
 
-    const mensagem = `Bem-vindo ${nomeAluno}, a cidade escolhida foi ${cidade}, Você mora na cidade: ${moraNaCidade}`;
+    const mensagem = `Bem-vindo ${nomeDoAluno}, a cidade escolhida foi ${Cidade}, Você mora na cidade: ${moraNaCidade}`;
 
 
     document.getElementById("mensagem").innerText = mensagem;
